@@ -145,3 +145,7 @@ inline void getBlobProps(Mat I, Blob* myBlobs)
 }
 ```
 Note: For more detail, refer to FDetectionFunction.h file.
+
+<b>Future Work:</b>
+1. Dynamic method of colour detection can be improved for colours requiring more than two channels. For example, if RGB format is used, then to detect white colour all channels will be required but channel required can be made equal to 1 if HSV format is used.
+2. Kalman Filter based tracking can be applied for better results in the centroid prediction.
